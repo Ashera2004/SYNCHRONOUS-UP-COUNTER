@@ -28,19 +28,47 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+1. Create a New Verilog Project in Quartus:
+
+    • Open Quartus Prime software.
+   
+    • Create a new project and file (Verilog HDL).
+   
+2. Write Verilog Code for the 4-bit Synchronous Up Counter:
+
+    • Define the module, inputs, and outputs.
+    • Use JK flip-flops and connect them in a way that each higher-order flip-flop toggles based on the output of the previous flip-flop.
+
+3. Simulate and Verify the Functionality:
+
+    • Compare the simulation results with the expected truth table to verify correctness.
+   
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
-*/
+![synchronous_up_code](https://github.com/user-attachments/assets/9f74ceb4-a7f4-4fcb-bcba-84eae7170665)
+
+
+
+Developed by: A S SIDDARTH 
+
+RegisterNumber: 212224040316
+
 
 **RTL LOGIC UP COUNTER**
 
+
+![synchronous_up_rtl](https://github.com/user-attachments/assets/1a53b42c-b2a4-40c9-b0a7-214f2334e537)
+
+
 **TIMING DIAGRAM FOR IP COUNTER**
 
-**TRUTH TABLE**
+
+![synchronous_up_waveform](https://github.com/user-attachments/assets/10859e94-1bf6-4497-8c57-534a937f60b6)
+
+
 
 **RESULTS**
+
+The 4-bit synchronous up counter has been successfully implemented and simulated in Quartus Prime using Verilog. The counter operates as expected, incrementing the output by 1 on each clock pulse.
